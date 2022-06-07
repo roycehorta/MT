@@ -64,7 +64,6 @@ svg {
 
 .header-wrap {
   width: 100%;
-  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -129,7 +128,6 @@ svg {
 
 @media screen and (max-width: 500px) {
   .navbar-menu {
-    position: fixed;
     top: 50;
     right: -100%;
     bottom: 0;
