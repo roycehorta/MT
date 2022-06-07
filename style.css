@@ -1,4 +1,23 @@
-   * {
+/* Redesigned Scrollbar */
+* {
+ scrollbar-width: thin;
+ scrollbar-color: rgb(92, 73, 255) rgb(255, 255, 255);
+ }
+ 
+ /* Works on Chrome, Edge, and Safari */
+ *::-webkit-scrollbar {
+ width: 8px;
+ }
+ 
+ *::-webkit-scrollbar-track {
+ background: #fffaf1;
+ }
+ 
+ *::-webkit-scrollbar-thumb {
+ background-color: #D4D4D4;
+ border-radius: 20px;
+ }   
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
