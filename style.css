@@ -107,7 +107,7 @@ list-style: none;
 
 
 .navbar-menu ul li:not(:last-child) {
-margin: 10px;
+margin: 20px;
  text-decoration: none;
 
 }
@@ -118,7 +118,7 @@ justify-content:center;
  align-content:center;
  align-items:center;
  text-align:center;
-font-size: 17px;
+font-size: 18px;
 color: black;
 font-family: 'Poppins';
 background-color: white;
@@ -1002,7 +1002,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 20px;
-        transform: translate(27%, -152%);
+        transform: translate(27%, -162%);
     }
     .vertical-left{
         width: 12%;
@@ -1143,7 +1143,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 15px;
-        transform: translate(27%, -113%);
+        transform: translate(27%, -53%);
     }
     .vertical-left{
         width: 12%;
@@ -1185,7 +1185,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 17px;
-        transform: translate(27%, -175%);
+        transform: translate(27%, -125%);
     }
     .vertical-left{
         width: 12%;
