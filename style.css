@@ -38,7 +38,7 @@ text-decoration: none;
 .header h2{
 padding: 5px;
 color: white;
-font-size:18px;
+font-size:20px;
 display: flex;
 font-family: 'Inter';
 align-items: center;
@@ -114,8 +114,7 @@ margin-right: 30px;
 
 .navbar-menu .link {
 display: flex;
-align-items: center;
-font-size: 20px;
+font-size: 17px;
 color: black;
 font-family: 'Poppins';
 background-color: white;
@@ -137,7 +136,6 @@ width: 30px;
 /*2nd section*/
 .second-section{
     height: 50vh;
-    font-family: Poppins;
 }
 .container-1{
     width: 80%;
@@ -1139,7 +1137,7 @@ background-color: rgb(9,39,216);
         margin-top: 30px;
     }
     .text{
-        font-size: 20px;
+        font-size: 15px;
         transform: translate(27%, -113%);
     }
     .vertical-left{
@@ -1181,7 +1179,7 @@ background-color: rgb(9,39,216);
         margin-top: 30px;
     }
     .text{
-        font-size: 20px;
+        font-size: 17px;
         transform: translate(27%, -141%);
     }
     .vertical-left{
