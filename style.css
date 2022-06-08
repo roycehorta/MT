@@ -115,8 +115,7 @@ margin: 20px;
 .navbar-menu .link {
 display: flex;
  justify-content:center;
-align-items: center;
-font-size: 17px;
+font-size: 18px;
 color: black;
 font-family: 'Poppins';
 background-color: white;
@@ -1182,8 +1181,8 @@ background-color: rgb(9,39,216);
         margin-top: 30px;
     }
     .text{
-        font-size: 18px;
-        transform: translate(29%, -175%);
+        font-size: 17px;
+        transform: translate(27%, -175%);
     }
     .vertical-left{
         width: 12%;
