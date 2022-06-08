@@ -107,7 +107,9 @@ list-style: none;
 
 
 .navbar-menu ul li:not(:last-child) {
-margin: 10px;
+margin: auto;
+ padding-left:10px;
+ padding-right:10px;
  text-decoration: none;
 
 }
@@ -1142,7 +1144,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 15px;
-        transform: translate(27%, -263%);
+        transform: translate(27%, -113%);
     }
     .vertical-left{
         width: 12%;
