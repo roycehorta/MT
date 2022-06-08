@@ -107,7 +107,7 @@ list-style: none;
 
 
 .navbar-menu ul li:not(:last-child) {
-margin-right: 30px;
+margin: 20px;
  text-decoration: none;
 
 }
@@ -116,7 +116,7 @@ margin-right: 30px;
 display: flex;
  justify-content:center;
 align-items: center;
-font-size: 16px;
+font-size: 17px;
 color: black;
 font-family: 'Poppins';
 background-color: white;
