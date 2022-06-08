@@ -208,7 +208,7 @@ width: 30px;
     float: left;
     border-top-right-radius: 250px;
     border-bottom-right-radius: 250px;
-    margin-top: 200px;
+    margin-top: 150px;
     border-bottom: 50px solid #0821BF;
     background-color: #FFDA27;
 }
@@ -253,6 +253,7 @@ width: 30px;
     transform: translate(8%);
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: -150px
 }
 .first{
     width: 25%;
