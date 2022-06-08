@@ -1142,7 +1142,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 15px;
-        transform: translate(27%, -163);
+        transform: translate(27%, -163%);
     }
     .vertical-left{
         width: 12%;
