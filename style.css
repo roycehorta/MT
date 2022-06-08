@@ -379,6 +379,10 @@ background-color: rgb(9,39,216);
 /**/
 /****** SITE start ******/
 
+.banner{
+    margin-bottom: 30px;
+}
+
 .content{
     margin: 0 auto;
     width: 80%;
