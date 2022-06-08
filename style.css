@@ -142,6 +142,7 @@ width: 30px;
     transform: translate(13%);
     margin-top: 150px;
     margin-bottom: 150px;
+    font-family: Poppins;
 }
 .vertical-left{
     width: 8%;
@@ -199,6 +200,7 @@ width: 30px;
 /* 3rd*/
 .third-section{
     height: 180vh;
+    font-family: Poppins;
 }
 .vision{
     width: 75%;
@@ -219,6 +221,7 @@ width: 30px;
     margin-top: 100px;
     border-bottom: 50px solid #0821BF;
     background-color: #FFDA27;
+
 }
 .third-section h1{
     font-size: 60px;
@@ -240,6 +243,7 @@ width: 30px;
 /*4th*/
 .fourth-section{
     height: 80vh;
+    font-family: Poppins;
 }
 .container-2{
     background-color: #FCDB3A;
