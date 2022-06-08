@@ -33,6 +33,7 @@ display: flex;
 font-family: 'Inter';
 align-items: center;
 background-color: rgb(9,39,216);
+text-decoration: none;
 }
 .header h2{
 padding: 5px;
@@ -107,6 +108,7 @@ list-style: none;
 
 .navbar-menu ul li:not(:last-child) {
 margin-right: 30px;
+ text-decoration: none;
 
 }
 
@@ -117,7 +119,7 @@ font-size: 20px;
 color: black;
 font-family: 'Poppins';
 background-color: white;
-
+text-decoration: none;
 }
 
 .navbar-icon, .navbar-icon > * {
@@ -1215,5 +1217,4 @@ background-color: rgb(9,39,216);
         transform: translate(61%, -1380%);
     }
 }
-/*end od 2nd section*/
-
+/**/
