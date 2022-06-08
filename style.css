@@ -107,7 +107,7 @@ list-style: none;
 
 
 .navbar-menu ul li:not(:last-child) {
-margin: 20px;
+margin: 10px;
  text-decoration: none;
 
 }
@@ -116,9 +116,8 @@ margin: 20px;
 display: flex;
 justify-content:center;
  align-content:center;
- align-items:center;
- text-align:center;
-font-size: 18px;
+
+font-size: 16px;
 color: black;
 font-family: 'Poppins';
 background-color: white;
@@ -1002,7 +1001,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 20px;
-        transform: translate(27%, -162%);
+        transform: translate(27%, -152%);
     }
     .vertical-left{
         width: 12%;
@@ -1143,7 +1142,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 15px;
-        transform: translate(27%, -53%);
+        transform: translate(27%, -113%);
     }
     .vertical-left{
         width: 12%;
@@ -1185,7 +1184,7 @@ background-color: rgb(9,39,216);
     }
     .text{
         font-size: 17px;
-        transform: translate(27%, -125%);
+        transform: translate(27%, -175%);
     }
     .vertical-left{
         width: 12%;
