@@ -114,7 +114,10 @@ margin: 20px;
 
 .navbar-menu .link {
 display: flex;
- justify-content:center;
+justify-content:center;
+ align-content:center;
+ align-items:center;
+ text-align:center;
 font-size: 18px;
 color: black;
 font-family: 'Poppins';
