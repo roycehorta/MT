@@ -1133,7 +1133,7 @@ background-color: rgb(9,39,216);
 /*end of 2nd to 4th section media queries*/
 
 /*second-section*/
-@media (min-width: 375px){
+@media (max-width: 375px){
     .container-1{
         margin-top: 30px;
     }
@@ -1175,7 +1175,7 @@ background-color: rgb(9,39,216);
         transform: translate(61%, -1520%);
     }
 }
-@media (min-width: 414px){
+@media (max-width: 414px){
     .container-1{
         margin-top: 30px;
     }
