@@ -1230,3 +1230,238 @@ background-color: rgb(9,39,216);
     }
 }
 /**/
+
+/****** SITE start ******/
+
+.content{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.content h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 43px;
+    color: #05286B;
+}
+
+.paragraph {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph p{
+    text-indent: 10%;
+    font-size: 25px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width:200px) and (max-width:800px){
+    .content h1{
+        font-size: 25px;
+    }
+
+    .content p{
+        font-size: 12px;
+    }
+}
+
+/****** SITE end ******/
+
+
+/****** Promotional Video start ******/
+
+
+.container{
+    width: 90%;
+    height: auto;
+    background-color: #3E3AFF;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.box{
+    box-sizing: border-box;
+    height: auto;
+    background-color: transparent;
+    border: 5px solid #FFDA27;
+    padding: 20px;
+}
+
+.title {
+    position: relative;
+    flex: 1;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.title h1{
+    text-align: center;
+    color: #0927D8;
+}
+
+.title-row{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-left{
+    position: relative;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.box-left p{
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.box-right{
+    position: relative;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    border: 5px solid #FFDA27;
+    padding: 10px;
+}
+
+.box-right iframe{
+    width: 100%;
+    margin: 10px auto;
+}
+
+/* MEDIA QUERIES*/
+
+@media (min-width:300px) and (max-width:631px){
+    .title-row{
+        width: 240px;
+    }
+
+    .title h1{
+        font-size: 15px;
+    }
+
+    .box-left{
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .box-left p{
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .box-right{
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .box-right iframe{
+        flex: 100%;
+        max-width: 100%;
+        height: 150px;
+    }
+}
+
+@media (min-width:408px) and (max-width:631px){
+    .box-right iframe{
+        flex: 100%;
+        max-width: 100%;
+        height: 400px;
+
+    }
+}
+
+@media (min-width:631px) and (max-width:800px){
+    .title{
+        margin-bottom: 0px;
+    }
+
+    .title-row{
+        width: 50%;
+    }
+
+    .title h1{
+        font-size: 20px;
+    }
+    
+    .box-left{
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .box-left p{
+        margin-top: 40px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .box-right{
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .box-right iframe{
+        flex: 100%;
+        max-width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:801px){
+    .title-row{
+        width: 335px;
+    }
+
+    .title h1{
+        font-size: 25px;
+    }
+    
+}
+
+@media (min-width:1200px) and (max-width:1280px){
+    .box-left p{
+        font-size: 48px;
+    }
+}
+
+@media (min-width:1281px) and (max-width:2000px){
+    .box-left p{
+        margin-top: 70px;
+        font-size: 55px;
+    }
+}
+
+/****** Promotional Video end ******/
