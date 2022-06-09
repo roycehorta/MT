@@ -60,7 +60,6 @@ text-decoration: none;
 }
 
 a:hover {
-opacity: .7;
 }
 
 svg {
@@ -194,10 +193,14 @@ background-color: rgb(9,39,216);
 .off-navmenu:checked ~ .navbar-menu {
   right: 0;
   background-color: white;
-
+   visibility: visible;
 }
 
 .off-navmenu:checked ~ .navC {
+  backdrop-filter: blur(2px);
+    background-color: black;
+    opacity: .9;
+    visibility: visible;
  
 }
  
