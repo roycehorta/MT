@@ -305,15 +305,26 @@ background-color: rgb(9,39,216);
     }/* Media Queries Banner End*/
 
 /*intro media queries start*/
-.second-section{
-        width: 100%;
-        height: auto;
-        background-image: url("img/intro2.png");
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        }
-        
+.container-intro{
+    position: relative;
+}
+
+.container-intro img{
+    width: 100%;
+}
+
+.center-intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-intro p{
+    font-size: 3vw;
+    text-align: justify;
+    text-indent: 10%;
+}
     
 /*intro media query end*/
 /*mission vision queries start*/
