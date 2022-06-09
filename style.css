@@ -200,7 +200,6 @@ background-color: rgb(9,39,216);
 
 .off-navmenu:checked ~ .navC {
   backdrop-filter: blur(2px);
-  opacity: .9;
   visibility: visible;
 }
  
