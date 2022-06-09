@@ -192,18 +192,17 @@ background-color: rgb(9,39,216);
 
 .off-navmenu:checked ~ .navbar-menu {
   right: 0;
+  visibility: visible;
   background-color: white;
-   visibility: visible;
+
 }
 
 .off-navmenu:checked ~ .navC {
-  backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
     background-color: black;
     opacity: .9;
     visibility: visible;
- 
-}
- 
+  }
 }
  body{
     margin:0;
