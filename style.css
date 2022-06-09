@@ -193,14 +193,12 @@ background-color: rgb(9,39,216);
 
 .off-navmenu:checked ~ .navbar-menu {
   right: 0;
-  visibility: visible;
   background-color: white;
 
 }
 
 .off-navmenu:checked ~ .navC {
-  backdrop-filter: blur(2px);
-  visibility: visible;
+ 
 }
  
 }
