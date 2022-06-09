@@ -318,8 +318,8 @@ background-color: rgb(9,39,216);
     width: 80%;
     height: 650px;
     text-align: center;
-    margin-left: 170px;
-    margin-top: 90px;
+    margin-left: 150px;
+    margin-top: 100px;
     margin-bottom: 150px;
 
 }
@@ -373,7 +373,7 @@ background-color: rgb(9,39,216);
     font-size: 38px;
     text-align: justify;
     padding: 20px 20px 20px 20px;
-    transform: translate(30%, -170%);
+    transform: translate(27%, -170%);
     font-family: poppins;
 }
 /*intro media query end*/
