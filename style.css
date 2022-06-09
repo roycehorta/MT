@@ -316,10 +316,10 @@ background-color: rgb(9,39,216);
         .container-1{
             width: 60%;
             height: 300px;
-            transform: translate(35%, 35%);
+            transform: translate(33%, 32%);
         }
         .text{
-           font-size: 38px;
+           font-size: 30px;
            font-family: Poppins;
            text-align: justify;
            
