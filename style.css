@@ -308,7 +308,7 @@ background-color: rgb(9,39,216);
 .second-section{
         width: 100%;
         height: 90vh ;
-        background-image: url(intro.png);
+        background-image: url("img/intro.png");
         background-position: center;
         background-size: cover;
          position: relative;
@@ -328,7 +328,7 @@ background-color: rgb(9,39,216);
         .second-section{
         width: 90%;
         height: 30vh ;
-        background-image: url(intro.png);
+        background-image: url("img/intro.png");
         background-position: center;
         background-size: cover;
          position: relative;
