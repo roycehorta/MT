@@ -403,8 +403,12 @@ background-color: rgb(9,39,216);
 
 /*Facilities start*/
 
+	.facilities
+	{
+		align-items: center;
+	}
 	.facilities h2
-{
+	{
 	text-align: center;
 	background-color: #0927D8;
 	color: white;
@@ -416,9 +420,9 @@ background-color: rgb(9,39,216);
 	box-shadow: 0 3px 10px rgb(0,0,0,0.5);
 	margin-left: 8%;
 	margin-right: 8%
-}
+	}
 .facilities p
-{
+	{
 	font-family: poppins;
 	font-size: 24px;
 	margin-left: 10%;
@@ -426,7 +430,7 @@ background-color: rgb(9,39,216);
 	justify-content: justify;
 	align-items: center;
 	text-align: justify;
-}
+	}
 @media screen and (max-width: 600px)
 {
 	.facilities h2
