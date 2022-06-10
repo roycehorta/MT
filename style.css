@@ -431,6 +431,10 @@ background-color: rgb(9,39,216);
 	align-items: center;
 	text-align: justify;
 	}
+	.carousel
+{
+	border: 3px solid blue;
+}
 @media screen and (max-width: 600px)
 {
 	#facilities h2
