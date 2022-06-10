@@ -635,87 +635,6 @@ background-color: rgb(9,39,216);
 }
 
 
-
-/****** External links, news start ******/
-  .links{
-    text-decoration: none;
-    color: black;
-  }
-
-  .arrow{
-    width: 100px; float: right; 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 40px;"
-
-  }
-
-  .hdr{
-    $font-family: 'Poppins'; 
-    font-style: normal; 
-    font-weight: 1000; 
-    font-size: 50px; 
-    line-height: 75px; 
-    color: #05286B; 
-    margin-left: 5%;
-
-  }
-
-  .xlink{
-    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25); 
-    background-color: #FFDA27; 
-    padding:5px; 
-    padding-left: 100px; 
-    border: 1px solid black; 
-    border-radius: 10px; 
-    margin-right: 4px; 
-    margin-left: 3px;
-
-  }
-
-  .linktitle{
-    $font-family: 'Roboto';  
-    font-style: normal; 
-    font-weight: 700; 
-    font-size: 25px; 
-    line-height: 47px;
-
-
-  }
-
-  .card-title{
-    $font-family: 'Poppins'; 
-    font-style: normal; 
-    font-weight: 900; 
-    font-size: 20px; 
-    line-height: 30px; 
-    text-align: center; 
-    color: #05286B;"
-
-  }
-
-  .cardborder{
-    border: 2px solid blue;
-    padding: 2px;
-
-  }
-
-  .view{
-    $font-family: 'Poppins'; 
-    font-style: normal; 
-    font-weight: 1000; 
-    font-size: 20px; 
-    line-height: 75px; 
-    color: #05286B;"
-  }
-
-/* External links, news end*/
-
-
-/* MEDIA QUERIES*/
-
 @media (min-width:300px) and (max-width:631px){
     .title-row{
         width: 240px;
@@ -818,3 +737,126 @@ background-color: rgb(9,39,216);
 }
 
 /****** Promotional Video end ******/
+	
+	
+	
+	
+/*** External links, news start ***/
+  .links{
+    text-decoration: none;
+    color: black;
+  }
+
+  .arrow{
+    width: 100px; float: right; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 40px;"
+
+  }
+
+  .hdr{
+    $font-family: 'Poppins'; 
+    font-style: normal; 
+    font-weight: 1000; 
+    font-size: 50px; 
+    line-height: 75px; 
+    color: #05286B; 
+    margin-left: 5%;
+
+  }
+
+  .xlink{
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25); 
+    background-color: #FFDA27; 
+    padding:5px; 
+    padding-left: 100px; 
+    border: 1px solid black; 
+    border-radius: 10px; 
+    margin-right: 4px; 
+    margin-left: 3px;
+
+  }
+
+  .linktitle{
+    $font-family: 'Roboto';  
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 25px; 
+    line-height: 47px;
+
+
+  }
+
+  .card-title{
+    $font-family: 'Poppins'; 
+    font-style: normal; 
+    font-weight: 900; 
+    font-size: 20px; 
+    line-height: 30px; 
+    text-align: center; 
+    color: #05286B;"
+
+  }
+
+  .cardborder{
+    border: 2px solid blue;
+    padding: 2px;
+
+  }
+
+  .view{
+    $font-family: 'Poppins'; 
+    font-style: normal; 
+    font-weight: 1000; 
+    font-size: 20px; 
+    line-height: 75px; 
+    color: #05286B;"
+  }
+
+
+@media (min-width:200px) and (max-width:800px){
+
+      .arrow{
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+
+  }
+
+    .hdr{
+
+    font-weight: 900; 
+    font-size: 25px; 
+
+
+  }
+
+
+  .linktitle{
+
+    font-weight: 300px; 
+    font-size: 15px; 
+    line-height: 47px;
+
+
+  }
+
+    .card-title{
+
+    font-weight: 900; 
+    font-size: 15px; 
+
+
+  }
+
+    
+}
+
+/*** External links, news end ***/
+
+
+
