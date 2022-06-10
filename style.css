@@ -401,15 +401,28 @@ background-color: rgb(9,39,216);
 
 /**/
 
-/*Facilities star*/
+/*Facilities start*/
 
-.container
+	*
+	{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+/* facilities */
+.Facility
 	{
 		align-items: center;
 		text-align: center;
 		justify-content: justify;
 		margin-top: .5%;
 	}
+.facilityit
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
 .facilities h2
 	{
 		text-transform: uppercase;
@@ -422,6 +435,8 @@ background-color: rgb(9,39,216);
 		letter-spacing: 1px;
 		border-radius: 10px;
 		box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 .facilities  p
 	{
@@ -458,14 +473,32 @@ background-color: rgb(9,39,216);
 		min-height: 450px;
 		width: 100%;
 	}
+@media (max-width: 1024px)
+{
+.facilities
+	{
+		justify-content: justify;
+		align-items: center;
+	}
+	
+	.facilities p
+	{
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+}
 @media (max-width: 900px)
 {
-.container .facilities
+.facilities
 	{
 		margin-left: 5%;
 		margin-right: 5%;
 		justify-content: justify;
 	}
+.facilities h2
+{
+	font-size: 25px;
+}
 .facilities p
 	{
 		font-size: 17px;
@@ -482,20 +515,6 @@ background-color: rgb(9,39,216);
     left: 0;
     min-height: 300px;
 	width: 100%;
-}
-@media (max-width: 1024px)
-{
-	.container
-	{
-		justify-content: justify;
-		align-items: center;
-	}
-	
-	.facilities p
-	{
-		margin-bottom: 5%;
-		margin-top: 5%;
-	}
 }
 /*Facilities end*/
 /****** SITE start ******/
