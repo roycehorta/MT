@@ -406,6 +406,7 @@ background-color: rgb(9,39,216);
 	#facilities
 	{
 		align-items: center;
+		clear: both;
 	}
 	#facilities h2
 	{
