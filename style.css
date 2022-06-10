@@ -419,7 +419,8 @@ background-color: rgb(9,39,216);
 	font-weight: bold;
 	border-radius: 10px;
 	margin-left: 8%;
-	margin-right: 8%
+	margin-right: 8%;
+	clear: both;
 	}
 	#facilities p
 	{
@@ -449,7 +450,8 @@ background-color: rgb(9,39,216);
 		border-radius: 10px;
 		box-shadow: 0 3px 10px rgb(0,0,0,0.5);
 		margin-left: 8%;
-		margin-right: 8%
+		margin-right: 8%;
+		clear: both;
 	}
 	#facilities p
 	{
@@ -477,7 +479,8 @@ background-color: rgb(9,39,216);
 		border-radius: 10px;
 		box-shadow: 0 3px 10px rgb(0,0,0,0.5);
 		margin-left: 8%;
-		margin-right: 8%
+		margin-right: 8%;
+		clear: both;
 	}
 	#facilities p
 	{
