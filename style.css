@@ -934,7 +934,919 @@ background-color: rgb(9,39,216);
 /*** External links, news end ***/
 
 /* footer start */
+.footer-container{
+    width: 100%;
+    height: 600px;
+}
 
+.rectangle {
+    position:absolute;
+    height: 325px;
+    width: 1536px;
+    background-color:#FFDA27;
+    top: 50%;
+}
+
+.rectangle2{
+    position: absolute;
+    height: 35px;
+    width: 1536px;
+    background-color: #060392;
+    top: 95%;
+
+}
+.footer-logo{
+   position:relative;
+   top: 18%;
+   left:8%;
+   width: 160px;
+   height: 160px;
+}
+.footer-h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    position: relative;
+    bottom: 20%;
+    left: 23%;
+    text-shadow:0px 4px 4px rgb(0, 0, 0, 0.25);
+    font-weight: 600;
+    font-size: 30px;
+}
+.footer-h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    position: relative;
+    bottom: 20%;
+    left: 23%;
+    text-shadow:0px 4px 4px rgb(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 25px;
+}
+.footer-h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    position: relative;
+    bottom: 20%;
+    left: 23%;
+    text-shadow:0px 4px 4px rgb(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 20px;
+}
+.location {
+    position: relative;
+    left: 71%;
+    bottom: 70%;
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-decoration: none;
+}
+.footer-logo1{
+    position: relative;
+    right:5.8%;
+    top:15%;
+    color: black;
+
+    
+}
+.footer-message{
+    position: relative;
+    left: 71%;
+    bottom: 80%;
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-decoration: none;
+}
+.footer-logo2{
+    position: relative;
+    right:6%;
+    top: 12%;
+    color: black;
+}
+.footer-facebook{
+    position: relative;
+    left: 71%;
+    bottom: 86%;
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-decoration: none;
+}
+.footer-logo3{
+    position: relative;
+    right:6%;
+    top: 12%;
+    color: black;
+}
+.footer-h4{
+    position: relative;
+    bottom:70%;
+    left: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:1450px)
+{
+    .footer-logo{
+       position:relative;
+       top: 20%;
+       left:10%;
+       width: 145px;
+       height: 145px;
+    }
+    .footer-h1{
+        position: relative;
+        bottom: 16%;
+        left: 23%;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .footer-h2{
+        position: relative;
+        bottom: 16%;
+        left: 23%;
+        font-weight: 400;
+        font-size: 23px;
+    }
+    .footer-h3{
+        position: relative;
+        bottom: 16%;
+        left: 23%;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .location {
+        position: relative;
+        left: 65%;
+        bottom: 60%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+        text-decoration: none;
+    }
+    .footer-logo1{
+        position: relative;
+        right:5.1%;
+        top:15%;
+    }
+    .footer-message{
+        position: relative;
+        left: 65%;
+        bottom: 73%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .footer-logo2{
+        position: relative;
+        right:5.3%;
+        top: 12%;
+    }
+    .footer-facebook{
+        position: relative;
+        left: 65%;
+        bottom: 81%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .footer-logo3{
+        position: relative;
+        right:5.3%;
+        top: 12%;
+    }
+    .footer-h4{
+        position: relative;
+        bottom:60%;
+        left: 35%;
+        font-weight: 350;
+        font-size: 16px;
+        line-height: 24px;
+    } 
+}
+
+@media screen and (max-width:1300px)
+{
+    .footer-logo{
+       position:relative;
+       top: 25%;
+       left:8%;
+       width: 140px;
+       height: 140px;
+    }
+    .footer-h1{
+        position: relative;
+        bottom: 12%;
+        left: 21%;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .footer-h2{
+        position: relative;
+        bottom: 12%;
+        left: 21%;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .footer-h3{
+        position: relative;
+        bottom: 12%;
+        left: 21%;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .location {
+        position: relative;
+        left: 65%;
+        bottom: 60%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        text-decoration: none;
+    }
+    .footer-logo1{
+        position: relative;
+        right:5.1%;
+        top:15%;
+    }
+    .footer-message{
+        position: relative;
+        left: 65%;
+        bottom: 73%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .footer-logo2{
+        position: relative;
+        right:5.3%;
+        top: 12%;
+    }
+    .footer-facebook{
+        position: relative;
+        left: 65%;
+        bottom: 81%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .footer-logo3{
+        position: relative;
+        right:5.3%;
+        top: 12%;
+    }
+    .footer-h4{
+        position: relative;
+        bottom:60%;
+        left: 35%;
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 24px;
+    } 
+}
+@media screen and (max-width:1250px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:8%;
+        width: 130px;
+        height: 130px;
+     }
+     .footer-h1{
+         position: relative;
+         bottom: 10%;
+         left: 19%;
+         font-weight: 550;
+         font-size: 21px;
+     }
+     .footer-h2{
+         position: relative;
+         bottom: 10%;
+         left: 19%;
+         font-weight: 400;
+         font-size: 16px;
+     }
+     .footer-h3{
+         position: relative;
+         bottom: 10%;
+         left: 19%;
+         font-weight: 400;
+         font-size: 11px;
+     }
+     .location {
+         position: relative;
+         left: 60%;
+         bottom: 50%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:4.5%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 60%;
+         bottom: 62%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:4.8%;
+         top: 10%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 60%;
+         bottom: 70%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:5%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:55%;
+         left: 30%;
+         font-weight: 350;
+         font-size: 13px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:1150px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:6%;
+        width: 120px;
+        height: 120px;
+     }
+     .footer-h1{
+         position: relative;
+         bottom: 8%;
+         left: 15%;
+         font-weight: 550;
+         font-size: 21px;
+     }
+     .footer-h2{
+         position: relative;
+         bottom: 8%;
+         left: 15%;
+         font-weight: 400;
+         font-size: 16px;
+     }
+     .footer-h3{
+         position: relative;
+         bottom: 8%;
+         left: 15%;
+         font-weight: 400;
+         font-size: 11px;
+     }
+     .location {
+         position: relative;
+         left: 55%;
+         bottom: 45%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:4.5%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 55%;
+         bottom: 57%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:4.8%;
+         top: 10%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 55%;
+         bottom: 65%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:5%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:45%;
+         left: 25%;
+         font-weight: 350;
+         font-size: 13px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:1050px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:6%;
+        width: 115px;
+        height: 115px;
+     }
+     .footer-h1{
+         position: relative;
+         bottom: 5%;
+         left: 14%;
+         font-weight: 550;
+         font-size: 21px;
+     }
+     .footer-h2{
+         position: relative;
+         bottom: 5%;
+         left: 14%;
+         font-weight: 400;
+         font-size: 16px;
+     }
+     .footer-h3{
+         position: relative;
+         bottom: 5%;
+         left: 14%;
+         font-weight: 400;
+         font-size: 11px;
+     }
+     .location {
+         position: relative;
+         left: 50%;
+         bottom: 40%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:4.5%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 50%;
+         bottom: 52%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:4.8%;
+         top: 9%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 50%;
+         bottom: 60%;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:4.8%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:40%;
+         left: 25%;
+         font-weight: 350;
+         font-size: 13px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:900px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:6%;
+        width: 105px;
+        height: 105px;
+     }
+     .footer-h1{
+         position: relative;
+         bottom: 2%;
+         left: 14%;
+         font-weight: 500;
+         font-size: 16px;
+     }
+     .footer-h2{
+         position: relative;
+         bottom:2%;
+         left: 14%;
+         font-weight: 350;
+         font-size: 11px;
+     }
+     .footer-h3{
+         position: relative;
+         bottom: 2%;
+         left: 14%;
+         font-weight: 350;
+         font-size: 8px;
+     }
+     .location {
+         position: relative;
+         left: 45%;
+         bottom: 40%;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:3%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 45%;
+         bottom: 49%;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 45%;
+         bottom: 55%;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:40%;
+         left: 25%;
+         font-weight: 350;
+         font-size: 10px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:750px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:3%;
+        width: 100px;
+        height: 100px;
+     }
+     .footer-h1{
+         position: relative;
+         bottom: 2%;
+         left: 10%;
+         font-weight: 500;
+         font-size: 16px;
+     }
+     .footer-h2{
+         position: relative;
+         bottom:2%;
+         left: 10%;
+         font-weight: 350;
+         font-size: 11px;
+     }
+     .footer-h3{
+         position: relative;
+         bottom: 2%;
+         left: 10%;
+         font-weight: 350;
+         font-size: 8px;
+     }
+     .location {
+         position: relative;
+         left: 35%;
+         bottom: 30%;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:3%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 35%;
+         bottom: 39%;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 35%;
+         bottom: 45%;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:25%;
+         left: 18%;
+         font-weight: 350;
+         font-size: 10px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:650px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:3%;
+        width: 90px;
+        height: 90px;
+     }
+     .footer-h1{
+         position: relative;
+         top: 2%;
+         left: 9%;
+         font-weight: 500;
+         font-size: 10px;
+     }
+     .footer-h2{
+         position: relative;
+         top:2%;
+         left: 9%;
+         font-weight: 350;
+         font-size: 9px;
+     }
+     .footer-h3{
+         position: relative;
+         top: 2%;
+         left: 9%;
+         font-weight: 350;
+         font-size: 8px;
+     }
+     .location {
+         position: relative;
+         left: 27%;
+         bottom: 20%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:3%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 27%;
+         bottom: 29%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 27%;
+         bottom: 35%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:15%;
+         left: 13%;
+         font-weight: 350;
+         font-size: 10px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:600px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:3%;
+        width: 80px;
+        height: 80px;
+     }
+     .footer-h1{
+         position: relative;
+         top: 6%;
+         left: 9%;
+         font-weight: 500;
+         font-size: 10px;
+     }
+     .footer-h2{
+         position: relative;
+         top:6%;
+         left: 9%;
+         font-weight: 350;
+         font-size: 9px;
+     }
+     .footer-h3{
+         position: relative;
+         top: 6%;
+         left: 9%;
+         font-weight: 350;
+         font-size: 8px;
+     }
+     .location {
+         position: relative;
+         left: 27%;
+         bottom: 20%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:3%;
+         top: 11%;
+     }
+     .footer-message{
+         position: relative;
+         left: 27%;
+         bottom: 29%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 27%;
+         bottom: 35%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:3%;
+         top: 10%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:15%;
+         left: 13%;
+         font-weight: 350;
+         font-size: 10px;
+         line-height: 24px;
+     } 
+}
+@media screen and (max-width:500px)
+{
+    .footer-logo{
+        position:relative;
+        top: 25%;
+        left:3%;
+        width: 70px;
+        height: 70px;
+     }
+     .footer-h1{
+         position: relative;
+         top: 10%;
+         left: 8%;
+         font-weight: 500;
+         font-size: 10px;
+     }
+     .footer-h2{
+         position: relative;
+         top:10%;
+         left: 8%;
+         font-weight: 350;
+         font-size: 9px;
+     }
+     .footer-h3{
+         position: relative;
+         top: 10%;
+         left: 8%;
+         font-weight: 350;
+         font-size: 8px;
+     }
+     .location {
+         position: relative;
+         left: 23%;
+         bottom: 15%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo1{
+         position: relative;
+         right:2%;
+         top: 8%;
+     }
+     .footer-message{
+         position: relative;
+         left: 23%;
+         bottom: 24%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo2{
+         position: relative;
+         right:2%;
+         top: 7%;
+     }
+     .footer-facebook{
+         position: relative;
+         left: 23%;
+         bottom: 30%;
+         font-weight: 500;
+         font-size: 9px;
+         line-height: 29px;
+     }
+     .footer-logo3{
+         position: relative;
+         right:2%;
+         top: 8%;
+     }
+     .footer-h4{
+         position: relative;
+         bottom:9%;
+         left: 10%;
+         font-weight: 350;
+         font-size: 10px;
+         line-height: 24px;
+     } 
+}
+
+@media screen and (max-width:350px)
+{
+
+}
 
 /* footer end */
 
