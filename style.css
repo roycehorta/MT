@@ -204,10 +204,6 @@ background-color: rgb(9,39,216);
     visibility: visible;
   }
 }
- body{
-    margin:0;
-    font-family: 'Poppins',sans-serif;
-  }
   /* Banner Start*/
   /* Banner Background*/
   .carousel-item {
@@ -231,14 +227,17 @@ background-color: rgb(9,39,216);
     font-size: 80px;
     font-weight: 600;
     color:white;
+    font-family: 'Roboto', sans-serif;
   }
   /* Slide 3 text end*/
   .thirdslide{
+    font-family: 'Roboto',sans-serif;
     font-size: 55px;
     color:white;
     font-weight: 700;
   }
   .subs {
+    font-family: 'Roboto',sans-serif;
     font-size: 30px;
     color:white;
   }
