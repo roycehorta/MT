@@ -940,20 +940,17 @@ background-color: rgb(9,39,216);
 }
 
 .rectangle {
-    position:absolute;
     height: 325px;
-    width: 1536px;
+    width: 100%;
     background-color:#FFDA27;
-    top: 50%;
+    margin-top: -220px;
 }
 
 .rectangle2{
-    position: absolute;
-    height: 35px;
-    width: 1536px;
+     height: 35px;
+    width: 100%;
     background-color: #060392;
-    top: 95%;
-
+   
 }
 .footer-logo{
    position:relative;
