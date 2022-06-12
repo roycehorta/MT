@@ -147,7 +147,7 @@ width: 30px;
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 920px) {
     .header h2 {
 padding: 0px;
 color: white;
