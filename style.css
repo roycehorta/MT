@@ -837,7 +837,7 @@ background-color: rgb(9,39,216);
     $font-family: 'Poppins'; 
     font-style: normal; 
     font-weight: 1000; 
-    font-size: 50px; 
+    font-size: 45px; 
     line-height: 75px; 
     color: #05286B; 
     margin-left: 5%;
@@ -883,6 +883,18 @@ background-color: rgb(9,39,216);
 
   }
 
+.accordion-button{
+    $font-family: 'Poppins'; 
+    font-style: normal; 
+    font-weight: 900; 
+    font-size: 20px; 
+    line-height: 30px; 
+    text-align: center; 
+    color: #05286B;
+    text-align: auto;
+
+  }
+
   .view{
     $font-family: 'Poppins'; 
     font-style: normal; 
@@ -921,7 +933,7 @@ background-color: rgb(9,39,216);
 
   }
 
-    .card-title{
+    .accordion-button{
 
     font-weight: 900; 
     font-size: 15px; 
