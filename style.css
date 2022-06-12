@@ -891,7 +891,7 @@ background-color: rgb(9,39,216);
     $font-family: 'Poppins'; 
     font-style: normal; 
     font-weight: 900; 
-    $font-size: 20px; 
+    font-size: 20px; 
     line-height: 30px; 
     text-align: center; 
     color: #05286B;
@@ -940,7 +940,7 @@ background-color: rgb(9,39,216);
     .accordion-button{
 
     font-weight: 900; 
-    $font-size: 15px; 
+    font-size: 15px; 
 
 
   }
