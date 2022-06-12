@@ -394,7 +394,13 @@ background-color: rgb(9,39,216);
 /*mission vision queries end*/
 
 /*Population Start*/
-
+    .fourth-section{
+        width: 100%;
+        height: 95vh;
+        background-image: url(Images/spp-2.png);
+        background-position: center;
+    
+}
 /*Population End*/
 
 /*Facilities start*/
