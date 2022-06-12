@@ -113,6 +113,7 @@ text-decoration: none;
 
 .navbar-menu ul li:not(:last-child) {
 margin-right: 30px;
+text-align: center;	
  text-decoration: none;
 
 }
