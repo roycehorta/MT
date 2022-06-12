@@ -399,6 +399,8 @@ background-color: rgb(9,39,216);
         height: 95vh;
         background-image: url(img/spp-2.png);
         background-position: center;
+	margin-top:100px;
+	margin-bottom:100px;
     
 }
 /*Population End*/
