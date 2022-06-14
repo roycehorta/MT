@@ -408,6 +408,10 @@ background-color: rgb(9,39,216);
 	margin-bottom:100px;
     
 }
+ .fourth-sec img {
+  max-width: 100%;
+  height: auto;
+}
 /*Population End*/
 
 /*Facilities start*/
