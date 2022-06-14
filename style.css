@@ -399,15 +399,6 @@ background-color: rgb(9,39,216);
 /*mission vision queries end*/
 
 /*Population Start*/
-    .fourth-section{
-        width: 80%;
-        height: 90vh;
-        background-image: url(img/spp-2.png);
-	background-repeat: no-repeat;
-	margin-top:100px;
-	margin-bottom:100px;
-    
-}
  .fourth-sec img {
   max-width: 100%;
   height: auto;
