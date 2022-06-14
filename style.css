@@ -893,7 +893,7 @@ background-color: rgb(9,39,216);
   
     font-style: normal; 
     font-weight: 900; 
-    font-size: 20px; 
+    $font-size-base: 20px;
     line-height: 30px; 
     text-align: center; 
     color: #05286B;
