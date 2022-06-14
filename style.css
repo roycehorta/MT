@@ -840,7 +840,7 @@ background-color: rgb(9,39,216);
   }
 
   .hdr{
-    $font-family: 'Poppins'; 
+
     font-style: normal; 
     font-weight: 1000; 
     font-size: 45px; 
@@ -863,7 +863,7 @@ background-color: rgb(9,39,216);
   }
 
   .linktitle{
-    $font-family: 'Roboto';  
+ 
     font-style: normal; 
     font-weight: 700; 
     font-size: 25px; 
@@ -873,7 +873,7 @@ background-color: rgb(9,39,216);
   }
 
   .card-title{
-    $font-family: 'Poppins'; 
+
     font-style: normal; 
     font-weight: 900; 
     font-size: 20px; 
@@ -901,14 +901,7 @@ background-color: rgb(9,39,216);
 
   }
 
-  .view{
-    $font-family: 'Poppins'; 
-    font-style: normal; 
-    font-weight: 1000; 
-    font-size: 20px; 
-    line-height: 75px; 
-    color: #05286B;"
-  }
+  
 
 
 @media (min-width:200px) and (max-width:800px){
