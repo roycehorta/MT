@@ -890,7 +890,7 @@ background-color: rgb(9,39,216);
   }
 
 .accordion-button{
-    $font-family: 'Poppins'; 
+  
     font-style: normal; 
     font-weight: 900; 
     font-size: 20px; 
