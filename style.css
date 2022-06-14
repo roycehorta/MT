@@ -889,11 +889,11 @@ background-color: rgb(9,39,216);
 
   }
 
-.accordion-button{
+  #newstitle{
   
     font-style: normal; 
     font-weight: 900; 
-    $font-size-base: 20px;
+    font-size: 20px;
     line-height: 30px; 
     text-align: center; 
     color: #05286B;
